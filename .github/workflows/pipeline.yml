@@ -38,7 +38,7 @@ jobs:
     # 5️⃣ Preprocess Data
     - name: Run Preprocessing
       run: |
-        python preprocess.py
+        python preprocessing.py
 
     # 6️⃣ Train Model
     - name: Train Model
