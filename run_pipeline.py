@@ -46,7 +46,7 @@ def upload_model_to_hopsworks(model_path, scaler_path):
 
 if __name__ == "__main__":
     run_script("fetch_data.py")
-    run_script("preprocess.py")
+    run_script("preprocessing.py")
     run_script("train_model.py")
     upload_model_to_hopsworks("best_model.pkl", "scaler.pkl")
     run_script("predict_aqi.py")
