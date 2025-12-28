@@ -16,7 +16,7 @@ import os
 import hopsworks
 
 # ===== CONFIG =====
-API_KEY = "6094f98aa9ad646bfcbdd49788573e5b"  # replace with your API key
+API_KEY = ""  # replace with your API key
 LAT, LON = 24.8607, 67.0011
 CITY_ID = 1174872
 CSV_PATH = "karachi_weather_5hourly.csv"
