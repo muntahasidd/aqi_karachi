@@ -20,8 +20,7 @@ with open("best_model.pkl", "rb") as f:
 with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
-# 2️⃣ Config
-API_KEY = "6094f98aa9ad646bfcbdd49788573e5b"  # replace with your key
+# 2️⃣ Config  # replace with your key
 LAT, LON = 24.8607, 67.0011  # Karachi coordinates
 
 # 3️⃣ Fetch 5-day weather forecast
